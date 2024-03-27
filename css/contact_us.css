@@ -1,0 +1,71 @@
+* {
+    font-family: tahoma;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.header a:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 17.5%;
+    margin-left: -14px;
+    background-color: #b80000;
+}
+
+.header a:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 7px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+}
+
+.header-web {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4 ease 0s;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+}
+
+
+/* Nav Bar */
+
+.menu {
+    background-color: rgb(75, 154, 75);
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.menu-option {
+    display: inline-block;
+    margin-left: 21px;
+    height: 20px;
+}
+
+.menu-option a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-option a:hover {
+    color: blue;
+}
